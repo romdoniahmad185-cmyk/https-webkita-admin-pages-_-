@@ -187,3 +187,244 @@
         </div>
 
     </section>
+    <!-- ================= STATISTIK ================= -->
+
+    <section class="dashboard-row">
+
+        <div class="chart-box glass">
+
+            <div class="section-title">
+
+                <h2>Statistik Pesanan</h2>
+
+                <button class="btn-primary">
+                    Lihat Detail
+                </button>
+
+            </div>
+
+            <canvas id="orderChart"></canvas>
+
+        </div>
+
+        <div class="activity-box glass">
+
+            <div class="section-title">
+
+                <h2>Aktivitas Terbaru</h2>
+
+            </div>
+
+            <ul class="activity-list">
+
+                <li>
+
+                    <i class="fas fa-circle-check success"></i>
+
+                    <div>
+
+                        <h4>Website Company Profile selesai</h4>
+
+                        <span>5 menit yang lalu</span>
+
+                    </div>
+
+                </li>
+
+                <li>
+
+                    <i class="fas fa-cart-shopping primary"></i>
+
+                    <div>
+
+                        <h4>Pesanan baru masuk</h4>
+
+                        <span>15 menit yang lalu</span>
+
+                    </div>
+
+                </li>
+
+                <li>
+
+                    <i class="fas fa-user-plus warning"></i>
+
+                    <div>
+
+                        <h4>Pelanggan baru mendaftar</h4>
+
+                        <span>32 menit yang lalu</span>
+
+                    </div>
+
+                </li>
+
+                <li>
+
+                    <i class="fas fa-wallet success"></i>
+
+                    <div>
+
+                        <h4>Pembayaran berhasil diterima</h4>
+
+                        <span>1 jam yang lalu</span>
+
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!-- ================= TABEL PESANAN ================= -->
+
+    <section class="table-box glass">
+
+        <div class="section-title">
+
+            <h2>Pesanan Terbaru</h2>
+
+            <button class="btn-primary">
+
+                Lihat Semua
+
+            </button>
+
+        </div>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>ID</th>
+
+                    <th>Customer</th>
+
+                    <th>Paket</th>
+
+                    <th>Status</th>
+
+                    <th>Total</th>
+
+                    <th>Tanggal</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>#WK001</td>
+
+                    <td>Ahmad</td>
+
+                    <td>Landing Page</td>
+
+                    <td>
+                        <span class="badge success">
+                            Selesai
+                        </span>
+                    </td>
+
+                    <td>Rp500.000</td>
+
+                    <td>27 Juli 2026</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>#WK002</td>
+
+                    <td>Budi</td>
+
+                    <td>Company Profile</td>
+
+                    <td>
+                        <span class="badge warning">
+                            Diproses
+                        </span>
+                    </td>
+
+                    <td>Rp2.500.000</td>
+
+                    <td>27 Juli 2026</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>#WK003</td>
+
+                    <td>Siti</td>
+
+                    <td>Toko Online</td>
+
+                    <td>
+                        <span class="badge info">
+                            Menunggu
+                        </span>
+                    </td>
+
+                    <td>Rp4.500.000</td>
+
+                    <td>27 Juli 2026</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>#WK004</td>
+
+                    <td>Doni</td>
+
+                    <td>Website Sekolah</td>
+
+                    <td>
+                        <span class="badge danger">
+                            Dibatalkan
+                        </span>
+                    </td>
+
+                    <td>Rp1.500.000</td>
+
+                    <td>26 Juli 2026</td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <p>
+
+        © 2026 WEBKITA Dashboard Admin.
+        All Rights Reserved.
+
+    </p>
+
+</footer>
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="script/dashboard.js"></script>
+
+</body>
+</html>
